@@ -180,8 +180,12 @@
 }
 
 .flip-clock-wrapper {
-  margin: 4em !important;
+  margin: 4em auto !important; /* Centrage horizontal */
+  display: flex;
+  justify-content: center; /* Centrage vertical */
+  align-items: center; /* Centrage vertical */
 }
+
 
 .flip-clock-divider .flip-clock-label {
   color: white !important;

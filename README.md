@@ -1,11 +1,8 @@
-Source code for our wedding website 👫 (https://we.shyamjos.com/) , Based on HTML theme https://freehtml5.co/wedding-free-html5-bootstrap-template-for-wedding-websites
+Basé sur le thème HTML https://freehtml5.co/wedding-free-html5-bootstrap-template-for-wedding-websites
 
-To set the countdown date see below section in `js/clock.js`
+Pour définir la date du compte à rebours, consultez la section ci-dessous dans js/clock.js
 
 ````
   // Target future date/24 hour time/Timezone
-  let targetDate = moment.tz("2023-10-29 12:00", "Asia/Kolkata");
+  let targetDate = moment.tz("2024-10-05 14:30", "Europe/Paris");
 ````
-
-## Sreenshot
-![screenshot](https://repository-images.githubusercontent.com/698651028/fbae82e0-b0bd-4295-a840-f049886a861e)
