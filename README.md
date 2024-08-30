@@ -4,5 +4,5 @@ Pour définir la date du compte à rebours, consultez la section ci-dessous dans
 
 ````
   // Target future date/24 hour time/Timezone
-  let targetDate = moment.tz("2024-10-05 14:30", "Europe/Paris");
+  let targetDate = moment.tz("2024-10-05 14:00", "Europe/Paris");
 ````
