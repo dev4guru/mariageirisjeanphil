@@ -656,7 +656,26 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0 0 10px 1%;
   list-style: none;
-  min-height: 400px;
+  min-height: 600px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  clear: left;
+  position: relative;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#fh5co-gallery-list_2 li {
+  display: block;
+  padding: 0;
+  margin: 0 0 10px 1%;
+  list-style: none;
+  min-height: 600px;
+  min-width: 400px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -680,23 +699,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  z-index: 80;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
-  background: rgba(0, 0, 0, 0.2);
-}
+
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
